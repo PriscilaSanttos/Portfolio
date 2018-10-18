@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Source Code Pro", Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+.nav-primary.navbar{
+    position: absolute;
+    top:0;
+    width: 100%;
+}
+
+.nav-primary .navbar-collapse{
+    justify-content: flex-end;
+
+}
+
+.background{
+    height: 80vh;
+    margin-top: 80px;
+}
+
+.background img{
+    height: 80vh;
+    object-fit: cover;
+}
+
+.autora{
+    font-size: 22px;
+}
+
+.autora-paragrafo{
+    border-bottom: 1px solid gray;
+    padding-bottom: 20px;
+}
+
+.skills{
+    font-size: 22px;
+}
+
+textarea{
+    resize: none;
+
+}
+
+textarea.form-control{
+    height: 100px;
+}
+
+span.error{
+    font-size: 10px;
+    color:black;
+    letter-spacing: 0.5px;
+}
+
+input.error, textarea.error{
+    border-color: black;
+}
+
+.contact{
+    background: linear-gradient(38deg, rgba(168,168,172,1) 0%, rgba(250,250,254,1) 52%);
+} 
+
+.footer img{
+    width: 2.25em;
+}
